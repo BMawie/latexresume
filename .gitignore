@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Runtime
+*.out
+*.aux
+*.bib
+*.gz
+*.cls
+
+# Images
+github*.pdf
+linkedin*.pdf
+moi2.png

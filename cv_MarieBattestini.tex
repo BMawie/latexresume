@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.1 (9/2/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[hidelinks]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\newcommand{\vcenteredinclude}[1]{\begingroup
+\setbox0=\hbox{\includegraphics[height=11pt]{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
+\makeatletter
+\@beginparpenalty=10000
+\makeatother
+
+\begin{document}
+
+\header{marie}{battestini}{software engineer}{moi2.png} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+(+33) 06 67 32 81 53
+~
+\href{mailto:mbattest@gmail.com}{mbattest@gmail.com}
+\href{http://www.linkedin.com/in/mariebattestini}{\vcenteredinclude{linkedin.eps}~mariebattestini}
+\href{http://github.com/BMawie/}{\vcenteredinclude{github.png}~BMawie}
+\section{compétences}
+{\color{red} $\varheartsuit$} Java/J2EE, iOS
+JQuery, NodeJS
+anglais courant
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	PROFIL SECTION
+%----------------------------------------------------------------------------------------
+
+\section{profil}
+
+Développeuse J2EE avec 7 ans d’expérience principalement en SSII, je suis actuellement consultante indépendante. J'ai mis a profit mes voyages pour élargir mes compétences techniques et suivre des formations en informatique, électronique ainsi qu'en impression 3D. \\
+Soucieuse de rester compétitive, j’aimerais travailler sur des projets innovants et créatifs. Je travaille actuellement sur des projets personnels et professionnels me permettant de progresser sur les dernières technologies Web, iOS et iBeacon.\\
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014--2015}
+{Consultante Indépendante  {\normalfont - 1 an}}
+{Orléans}
+{\emph{Consultante pour Misberri LLC et développement de projets personnels}
+\begin{itemize}
+\item Création de l'application iOS Booda fashion (www.getbooda.com). Booda est une application de ecommerce social connectant des fashionistas localement en utilisant des Gimbal 
+\item Développement d'APIs RESTful ainsi que de sites web d'administration avec NodeJS, Backbone, Bootstrap, Heroku, Git, MongoDB
+\item Création de site vitrine avec Wordpress
+\item Développement d'applications iOS en Objective-C avec Firebase et Reactive Cocoa
+\end{itemize}
+\vspace*{3mm}}
+%------------------------------------------------
+\entry
+{2012--2013}
+{Consultante IT {\normalfont - 1,5 an}}
+{DWS, Brisbane (Australie)}
+{\emph{Consultante sur un projet Scrum durant 1 an pour Virgin Australia:}
+\begin{itemize}
+\item Développement du site de réservation en ligne basé sur la plateforme SabreSonic en utilisant Scrum puis Kanban
+\item Développements front-end avec CSS, JS avec YUI et HTML 
+\item Conception et réalisation d'un outil de déploiement automatique en Java avec Selenium Webdriver
+\end{itemize}
+\vspace*{3mm} 
+\emph{Consultante sur site sur un projet Scrum pour Origin Energy:}
+\begin{itemize}
+\item Migration et intégration de données client avec l'ETL Talend Open Studio
+\item Réalisation d'un outil J2EE de génération de code source de type XML en utilisant la technique du scaffolding
+\end{itemize}
+\vspace*{3mm}}
+%------------------------------------------------
+\entry
+{2010--2011}
+{Chef de projet {\normalfont - 1,5 an}}
+{Accenture, Lyon}
+{\emph{Chef de projet au sein d'un contrat d'externalisation pour FT}
+\begin{itemize}
+\item Reprise et pilotage de projet, mise en place et coordination des équipes distribuées à Nantes, Lyon et Mumbai (Inde)
+\item Gestion du transfert de compétences et migration des infrastructures logicielles
+\item Gestion des relations contractuelles avec le client
+\item Identification, analyse et conception après recueil des besoins client
+\item Référente fonctionnelle et technique sur le projet
+\item Support applicatif et interventions sur site pour résolution des problèmes de production
+\item Application J2EE (Spring \& Hibernate) intégrant des interfaces Flex
+\end{itemize}
+\vspace*{3mm}}
+%------------------------------------------------
+\entry
+{2007--2010}
+{Ingénieur d’études J2EE {\normalfont - 3 ans}}
+{GFI Progiciels, Lyon}
+{\emph{Portage d’un progiciel de prestation sociale en technologie web J2EE. Projet conçu et réalisé à Lyon et à Casablanca.}
+\begin{itemize}
+\item Identification des besoins métier
+\item Analyses fonctionnelles et techniques – spécifications – développements – tests et maintenance de l’application
+\item Gestion d’équipe et formation des développeurs
+\item Mise en place de web services et de la documentation
+\end{itemize}
+\vspace*{3mm}}
+%------------------------------------------------
+\entry
+{2006-2007}
+{Ingénieur d’études {\normalfont - 1 an}}
+{Ares, Orléans}
+{\emph{Responsable de l’équipe de backlog maintenant le portail web utilisé dans les call-centers de l’ancien opérateur Tele2.} \\
+Analyse d’erreurs ; gestion des incidents avec les call-centers.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{formation}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2004--2006}
+{Bachelor With Honours {\normalfont in Computer Science}}
+{Heriot Watt University, Edimbourg (UK)}
+
+%------------------------------------------------
+\entry
+{2002--2004}
+{IUT {\normalfont Génie des Télécommunications et des Réseaux}}
+{IUT François Rabelais, Blois}
+
+%------------------------------------------------
+\entry
+{2002}
+{Baccalauréat {\normalfont Scientifique}}
+{Orléans}
+
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WEB SECTION
+%----------------------------------------------------------------------------------------
+
+\section{languages}
+
+Java/J2EE, JSP, Objective C, Swift, Arduino\\ NodeJS, JQuery, Backbone, HTML5, CSS3, Sass
+
+%----------------------------------------------------------------------------------------
+%	FRAMEWORKS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{frameworks}
+
+Spring, Hibernate, Ruby on Rails, Bootstrap, Reactive Cocoa
+
+%----------------------------------------------------------------------------------------
+%	DB SECTION
+%----------------------------------------------------------------------------------------
+
+\section{bases de données}
+
+Oracle, MySQL, Postgres, MongoDB, Firebase
+
+%----------------------------------------------------------------------------------------
+%	OUTILS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{outils}
+
+IntelliJ, Xcode, AppCode, Eclipse, Git, Subversion, Heroku, Selenium, Maven, Jenkins, Sonar\\
+Talend Open Studio, IBM Rational Suite, MS Project Server, Toad, MAMP, outils Atlassian
+\\
+\\
+
+%----------------------------------------------------------------------------------------
+%	AUTRES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{hobbies}
+
+Anglais courant ; Allemand scolaire ; Permis B\\
+Wearables, IoT, électronique, impression 3D\\
+Voyages, couture, photographie, randonnée
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
